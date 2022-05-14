@@ -12,7 +12,6 @@
     --bg-botton-color: #2196f3;
     --botton-hover-color: #188CE8;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
@@ -20,7 +19,6 @@ body {
     color: var(--text-main-color);
     background-color: var(--bg-main-color);
 }
-
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -33,24 +31,19 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-
 img {
     display: block;
 }
-
 p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
-
 ul, ol {
     margin: 0;
     padding-left: 0;
 }
-
 .list {
     list-style: none;
 }
-
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -58,7 +51,6 @@ ul, ol {
     margin: 0 auto;
     outline: 2px solid red;
 }
-
 .link {
     text-decoration: none;
 }
@@ -72,7 +64,7 @@ ul, ol {
     display: flex;
     flex-direction: row;
 }
-.header-position{
+.header-position {
     display: flex;
     align-self: center;
 }
@@ -83,7 +75,6 @@ ul, ol {
     display: flex;
     align-self: center;
     margin: 0 0 0 93px;
-    
 }
 .position-nav-element {
     flex: 1 1 auto;
@@ -162,14 +153,12 @@ ul, ol {
 .hero-button:hover {
     background-color: var(--botton-hover-color);
 }
-
 .section-title {
     font-size: 36px;
     text-align: center;
     font-weight: 700;
     line-height: 1.166;
 }
-
 /* First section */
 .first-section {
     padding-top: 94px;
@@ -283,7 +272,6 @@ ul, ol {
 
     background-color: var(--bg-main-color);
 }
-
 .button-decoration {
     padding: 6px 22px;
 
@@ -324,7 +312,6 @@ ul, ol {
     flex: 1 1 auto;
     margin: 0 8px;
 }
-
 /* Card part */
 .portfolio-card-margin {
     margin: 0 0 30px 0;
@@ -338,7 +325,6 @@ ul, ol {
 .portfolio-card-margin:nth-last-child(-n + 3) {
     margin: 0;
 }
-
 .card-title {
     margin-bottom: 4px;
     padding-left: 24px;
