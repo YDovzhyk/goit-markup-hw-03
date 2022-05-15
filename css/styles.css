@@ -49,10 +49,13 @@ ul, ol {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
 }
 .link {
     text-decoration: none;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 /* Header */
 .header {
@@ -119,6 +122,7 @@ ul, ol {
     padding-top: 200px;
     padding-bottom: 280px;
     background-color: var(--bg-hero-color);
+    max-height: 600px;
 }
 .hero-title {
     padding-right: 252px;
@@ -161,9 +165,6 @@ ul, ol {
 }
 /* First section */
 .first-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--bg-main-color);
 }
 .group {
@@ -175,30 +176,26 @@ ul, ol {
     margin-bottom: 10px;
 
     max-width: 270px;
-    height: 16px;
+    min-height: 16px;
     line-height: 1.142;
     font-size: 14px;
     text-transform: uppercase;
 }
 .first-section .text {
     max-width: 270px;
-    height: 75px;
+    min-height: 75px;
     line-height: 1.714;
     color: var(--text-contact-color);
 }
 /* Second section */
 .second-section{
     background-color: var(--bg-main-color);
-    padding-bottom: 94px;
 }
 .second-section .section-title {
     margin-bottom: 50px;
 }
 /* Third section */
 .third-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--bg-team-color);
     font-size: 16px;
     line-height: 1.187;
@@ -207,8 +204,8 @@ ul, ol {
     margin-bottom: 50px;
 }
 .card-decoration {
-    width: 270px;
-    height: 368px;   
+    max-width: 270px;
+    min-height: 368px;   
     background: var(--bg-main-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -267,9 +264,6 @@ ul, ol {
 
 /* Botton part */
 .portfolio-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-
     background-color: var(--bg-main-color);
 }
 .button-decoration {
