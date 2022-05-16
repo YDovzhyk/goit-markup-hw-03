@@ -119,10 +119,9 @@ ul, ol {
 
 /* Hero */
 .hero-decoration {
-    padding-top: 200px;
-    padding-bottom: 280px;
+    padding-top: 165px;
+    padding-bottom: 231px;
     background-color: var(--bg-hero-color);
-    max-height: 600px;
 }
 .hero-title {
     padding-right: 252px;
@@ -188,8 +187,11 @@ ul, ol {
     color: var(--text-contact-color);
 }
 /* Second section */
-.second-section{
+.second-section {
     background-color: var(--bg-main-color);
+}
+.padding-correction {
+    padding-top: 0px;
 }
 .second-section .section-title {
     margin-bottom: 50px;
